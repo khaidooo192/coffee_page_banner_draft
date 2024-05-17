@@ -1,0 +1,72 @@
+/* reset margin, padding */
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.red {
+  border: 1px solid red;
+}
+
+.green {
+  border: 1px solid green;
+}
+
+.banner {
+  height: 500px;
+  background: url("./banner.jpg") center center no-repeat;
+  padding: 20px;
+}
+.banner .about-sign_in {
+  height: 80px;
+  width: 100%;
+  text-align: right;
+}
+.banner .about-sign_in .head_btn {
+  text-decoration: none;
+  margin-top: 20px;
+  display: inline-block;
+  padding: 10px 15px;
+  text-transform: uppercase;
+}
+.banner .about-sign_in .sign_in {
+  margin-right: 60px;
+  margin-left: 25px;
+  border: 1px solid green;
+  border-radius: 50px;
+}
+.banner .logo {
+  background: url(./logo.png) center center no-repeat;
+  margin-top: 40px;
+  height: 100px;
+}
+.banner .text {
+  text-align: center;
+  margin-top: 30px;
+}
+.banner .btn_start_now {
+  text-align: center;
+}
+.banner .btn_start_now button {
+  text-transform: uppercase;
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: 1px solid green;
+  margin-top: 25px;
+  cursor: pointer;
+}
+.banner .content_center .left, .banner .content_center .right, .banner .content_center .center {
+  width: 33%;
+  display: inline-block;
+  text-align: center;
+}
+.banner .content_center .left span, .banner .content_center .right span, .banner .content_center .center span {
+  display: block;
+  font-size: 20px;
+}
+.banner .content_center .left img, .banner .content_center .right img, .banner .content_center .center img {
+  width: 30px;
+  height: 30px;
+}
+
+/*# sourceMappingURL=custom.css.map */
